@@ -46,6 +46,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
   # Use sqlite3 as the database for Active Record
   gem "sqlite3", "~> 1.7.2"
+  gem "minitest-reporters", "~> 1.6"
 end
 
 group :development do
