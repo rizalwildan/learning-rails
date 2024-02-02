@@ -4,6 +4,7 @@ ruby "3.3.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3"
+gem 'bootstrap-sass', "~> 3.4"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -47,6 +48,7 @@ group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem "sqlite3", "~> 1.7.2"
   gem "minitest-reporters", "~> 1.6"
+  gem 'rails-controller-testing', '~> 1.0'
 end
 
 group :development do
