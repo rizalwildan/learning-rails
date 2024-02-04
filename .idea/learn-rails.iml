@@ -669,6 +669,27 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="jquery-rails (v4.6.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0/vendor" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0/vendor" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="loofah (v2.22.0) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -1684,6 +1705,10 @@
     </entry>
     <entry key="public/stylesheets">
       <value>file://$MODULE_DIR$/public/stylesheets</value>
+    </entry>
+    <entry key="test/mailers/previews">
+      <value>file://$MODULE_DIR$/test/mailers/previews</value>
+      <value>file://$MODULE_DIR$/test/mailers/previews</value>
     </entry>
     <entry key="tmp">
       <value>file://$MODULE_DIR$/tmp</value>
